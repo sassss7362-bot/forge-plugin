@@ -1,0 +1,12 @@
+name: Forge
+main: dev.forge.ForgePlugin
+version: 1.0
+api-version: '1.21'
+description: Admin GUI for custom weapons, armor, spheres and talismans
+commands:
+  forge:
+    description: Open the Forge menu
+    permission: forge.admin
+permissions:
+  forge.admin:
+    default: op
